@@ -14,6 +14,7 @@ namespace hw3phase2
     {
         [OperationContract]
       [WebGet(UriTemplate = "/Forecast/{zip}")]
+      //test 
         string Forecast(string zip);
     }
 }
